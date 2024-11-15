@@ -5,13 +5,7 @@ module.exports = {
 	publish: [
 		{
 			leoaws: {
-				profile: 'leo',
-				region: 'us-west-2'
-			},
-			public: true
-		}, {
-			leoaws: {
-				profile: 'leo',
+				profile: 'default',
 				region: 'us-east-1'
 			},
 			public: true

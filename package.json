@@ -15,7 +15,7 @@
 	},
 	"license": "ISC",
 	"dependencies": {
-		"leo-aws": ">1.0.0"
+		"leo-aws": "file:../leo-aws"
 	},
 	"devDependencies": {}
 }
