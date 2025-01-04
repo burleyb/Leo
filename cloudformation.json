@@ -10,11 +10,11 @@
         "CognitoTemplateUrl": "https://leo-cli-publishbucket-mzhr7agmqo7u.s3-us-west-2.amazonaws.com/leo-Cognito/cloudformation-latest.json"
       },
       "us-east-1": {
-        "S3Bucket": "leo-cli-publishbucket-abb4i613j9y9",
-        "AuthTemplateUrl": "https://leo-cli-publishbucket-abb4i613j9y9.s3.amazonaws.com/auth/2.0.0/cloudformation-auth-1652216325999.json",
-        "BusTemplateUrl": "https://leo-cli-publishbucket-abb4i613j9y9.s3.amazonaws.com/leo-bus/3.2.0/cloudformation-1669137956326.json",
-        "BotmonTemplateUrl": "https://leo-cli-publishbucket-abb4i613j9y9.s3.amazonaws.com/botmon/3.0.2/cloudformation-1667947716066.json",
-        "CognitoTemplateUrl": "https://leo-cli-publishbucket-abb4i613j9y9.s3.amazonaws.com/leo-Cognito/cloudformation-latest.json"
+        "S3Bucket": "leo-cli-publishbucket-qzoiwmdgdtjy",
+        "AuthTemplateUrl": "https://cdk-hnb659fds-assets-539247478240-us-east-1.s3.us-east-1.amazonaws.com/cf8c8b5a13a4e9c71714c4296944e381368d98de3d6dbe934f01230aa9c1362f.json",
+        "BusTemplateUrl": "https://leo-cli-publishbucket-qzoiwmdgdtjy.s3.us-east-1.amazonaws.com/leo-bus/cloudformation-latest.json",
+        "BotmonTemplateUrl": "https://leo-cli-publishbucket-qzoiwmdgdtjy.s3.us-east-1.amazonaws.com/botmon/cloudformation-latest.json",
+        "CognitoTemplateUrl": "https://leo-cli-publishbucket-qzoiwmdgdtjy.s3.us-east-1.amazonaws.com/leo-Cognito/cloudformation-latest.json"
       }
     }
   },
