@@ -11,7 +11,7 @@
       },
       "us-east-1": {
         "S3Bucket": "leo-cli-publishbucket-qzoiwmdgdtjy",
-        "AuthTemplateUrl": "https://cdk-hnb659fds-assets-539247478240-us-east-1.s3.us-east-1.amazonaws.com/cf8c8b5a13a4e9c71714c4296944e381368d98de3d6dbe934f01230aa9c1362f.json",
+        "AuthTemplateUrl": "https://cdk-hnb659fds-assets-539247478240-us-east-1.s3.us-east-1.amazonaws.com/46931e2a8f6c73ba36a95140876f9d0eb27f3a470dd5dfe52e5ccd0e38826f1e.json",
         "BusTemplateUrl": "https://leo-cli-publishbucket-qzoiwmdgdtjy.s3.us-east-1.amazonaws.com/leo-bus/cloudformation-latest.json",
         "BotmonTemplateUrl": "https://leo-cli-publishbucket-qzoiwmdgdtjy.s3.us-east-1.amazonaws.com/botmon/cloudformation-latest.json",
         "CognitoTemplateUrl": "https://leo-cli-publishbucket-qzoiwmdgdtjy.s3.us-east-1.amazonaws.com/leo-Cognito/cloudformation-latest.json"
@@ -404,6 +404,32 @@
                 ]
               }
             ]
+          },
+          "LeoAuth": {
+            "Fn::Select": [
+              "1",
+              {
+                "Fn::Split": [
+                  "/",
+                  {
+                    "Ref": "Auth"
+                  }
+                ]
+              }
+            ]
+          },
+          "LeoBus": {
+            "Fn::Select": [
+              "1",
+              {
+                "Fn::Split": [
+                  "/",
+                  {
+                    "Ref": "Bus"
+                  }
+                ]
+              }
+            ]
           }
         }
       },
@@ -514,7 +540,7 @@
     },
     "LeoStreamBillingMode": {
       "Type": "String",
-      "Default": "PROVISIONED",
+      "Default": "PAY_PER_REQUEST",
       "AllowedValues": [
         "PROVISIONED",
         "PAY_PER_REQUEST"
@@ -539,7 +565,7 @@
     },
     "LeoArchiveBillingMode": {
       "Type": "String",
-      "Default": "PROVISIONED",
+      "Default": "PAY_PER_REQUEST",
       "AllowedValues": [
         "PROVISIONED",
         "PAY_PER_REQUEST"
@@ -564,7 +590,7 @@
     },
     "LeoEventBillingMode": {
       "Type": "String",
-      "Default": "PROVISIONED",
+      "Default": "PAY_PER_REQUEST",
       "AllowedValues": [
         "PROVISIONED",
         "PAY_PER_REQUEST"
@@ -589,7 +615,7 @@
     },
     "LeoSettingsBillingMode": {
       "Type": "String",
-      "Default": "PROVISIONED",
+      "Default": "PAY_PER_REQUEST",
       "AllowedValues": [
         "PROVISIONED",
         "PAY_PER_REQUEST"
@@ -614,7 +640,7 @@
     },
     "LeoCronBillingMode": {
       "Type": "String",
-      "Default": "PROVISIONED",
+      "Default": "PAY_PER_REQUEST",
       "AllowedValues": [
         "PROVISIONED",
         "PAY_PER_REQUEST"
@@ -639,7 +665,7 @@
     },
     "LeoSystemBillingMode": {
       "Type": "String",
-      "Default": "PROVISIONED",
+      "Default": "PAY_PER_REQUEST",
       "AllowedValues": [
         "PROVISIONED",
         "PAY_PER_REQUEST"
