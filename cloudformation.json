@@ -11,7 +11,7 @@
       },
       "us-east-1": {
         "S3Bucket": "leo-cli-publishbucket-qzoiwmdgdtjy",
-        "AuthTemplateUrl": "https://cdk-hnb659fds-assets-539247478240-us-east-1.s3.us-east-1.amazonaws.com/46931e2a8f6c73ba36a95140876f9d0eb27f3a470dd5dfe52e5ccd0e38826f1e.json",
+        "AuthTemplateUrl": "https://cdk-hnb659fds-assets-539247478240-us-east-1.s3.us-east-1.amazonaws.com/4c6f17348e49314001af1bd02df575673c0f795a6dd14b6d98457a5783cfeeaf.json",
         "BusTemplateUrl": "https://leo-cli-publishbucket-qzoiwmdgdtjy.s3.us-east-1.amazonaws.com/leo-bus/cloudformation-latest.json",
         "BotmonTemplateUrl": "https://leo-cli-publishbucket-qzoiwmdgdtjy.s3.us-east-1.amazonaws.com/botmon/cloudformation-latest.json",
         "CognitoTemplateUrl": "https://leo-cli-publishbucket-qzoiwmdgdtjy.s3.us-east-1.amazonaws.com/leo-Cognito/cloudformation-latest.json"
